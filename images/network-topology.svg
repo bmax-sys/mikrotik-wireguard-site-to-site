@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" rx="24" fill="#0d1117"/>
+<style>
+.t{font-family:Arial,sans-serif;fill:#f0f6fc}.s{font-family:Arial,sans-serif;fill:#8b949e}
+.box{fill:#161b22;stroke:#30363d;stroke-width:2}.wg{stroke:#58a6ff;stroke-width:5;stroke-dasharray:12 10}
+.l{stroke:#8b949e;stroke-width:3}.a{fill:#58a6ff}
+</style>
+<text x="600" y="55" text-anchor="middle" class="t" font-size="30" font-weight="700">MikroTik WireGuard Site-to-Site</text>
+<rect x="475" y="85" width="250" height="75" rx="16" class="box"/>
+<text x="600" y="120" text-anchor="middle" class="t" font-size="23">INTERNET</text>
+<text x="600" y="145" text-anchor="middle" class="s" font-size="16">WireGuard UDP 51820</text>
+<line x1="600" y1="160" x2="600" y2="195" class="l"/>
+<line x1="300" y1="195" x2="900" y2="195" class="l"/>
+<line x1="300" y1="195" x2="300" y2="230" class="l"/>
+<line x1="900" y1="195" x2="900" y2="230" class="l"/>
+<rect x="115" y="230" width="370" height="165" rx="18" class="box"/>
+<text x="300" y="270" text-anchor="middle" class="t" font-size="26" font-weight="700">MAXX-BASE</text>
+<text x="300" y="305" text-anchor="middle" class="s" font-size="18">Public IPv4 / reachable endpoint</text>
+<text x="300" y="340" text-anchor="middle" class="t" font-size="20">LAN  192.168.88.1/24</text>
+<text x="300" y="372" text-anchor="middle" class="a" font-size="20">WG  10.66.66.1/24</text>
+<rect x="715" y="230" width="370" height="165" rx="18" class="box"/>
+<text x="900" y="270" text-anchor="middle" class="t" font-size="26" font-weight="700">MAXX-REMOTE</text>
+<text x="900" y="305" text-anchor="middle" class="s" font-size="18">Any ISP / NAT / CGNAT</text>
+<text x="900" y="340" text-anchor="middle" class="t" font-size="20">LAN  192.168.89.1/24</text>
+<text x="900" y="372" text-anchor="middle" class="a" font-size="20">WG  10.66.66.2/24</text>
+<line x1="485" y1="365" x2="715" y2="365" class="wg"/>
+<text x="600" y="345" text-anchor="middle" class="a" font-size="17">WireGuard tunnel</text>
+<line x1="300" y1="395" x2="300" y2="455" class="l"/>
+<line x1="900" y1="395" x2="900" y2="455" class="l"/>
+<rect x="135" y="455" width="330" height="100" rx="16" class="box"/>
+<text x="300" y="495" text-anchor="middle" class="t" font-size="23">BASE LAN</text>
+<text x="300" y="530" text-anchor="middle" class="s" font-size="20">192.168.88.0/24</text>
+<rect x="735" y="455" width="330" height="100" rx="16" class="box"/>
+<text x="900" y="495" text-anchor="middle" class="t" font-size="23">REMOTE LAN</text>
+<text x="900" y="530" text-anchor="middle" class="s" font-size="20">192.168.89.0/24</text>
+<text x="600" y="595" text-anchor="middle" class="s" font-size="16">Tested implementation • RouterOS 7.21.5 • Layer-3 LAN-to-LAN routing</text>
+</svg>
